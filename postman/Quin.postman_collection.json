@@ -1,0 +1,123 @@
+{
+  "info": {
+    "name": "Quin - Symptom Assessment Contact Options",
+    "description": "Requests for all symptom assessment IDs provided in the coding assignment.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    }
+  ],
+  "item": [
+    {
+      "name": "HIGH - Assessment 01",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/symptom-assessments/7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e01/contact-options",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "symptom-assessments",
+            "7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e01",
+            "contact-options"
+          ]
+        }
+      }
+    },
+    {
+      "name": "HIGH - Assessment 02",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/symptom-assessments/7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e02/contact-options",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "symptom-assessments",
+            "7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e02",
+            "contact-options"
+          ]
+        }
+      }
+    },
+    {
+      "name": "MEDIUM - Assessment 03",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/symptom-assessments/7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e03/contact-options",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "symptom-assessments",
+            "7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e03",
+            "contact-options"
+          ]
+        }
+      }
+    },
+    {
+      "name": "MEDIUM - Assessment 04",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/symptom-assessments/7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e04/contact-options",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "symptom-assessments",
+            "7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e04",
+            "contact-options"
+          ]
+        }
+      }
+    },
+    {
+      "name": "LOW - Assessment 05",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/symptom-assessments/7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e05/contact-options",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "symptom-assessments",
+            "7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e05",
+            "contact-options"
+          ]
+        }
+      }
+    },
+    {
+      "name": "LOW - Assessment 06",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/symptom-assessments/7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e06/contact-options",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "symptom-assessments",
+            "7c9e6fae-9f1e-4b6a-9f1a-1a2b3c4d5e06",
+            "contact-options"
+          ]
+        }
+      }
+    }
+  ]
+}

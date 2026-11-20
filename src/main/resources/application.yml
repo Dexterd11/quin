@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ${application.name}
+server:
+  port: 8080
+
+api:
+  baseUrl: https://mp485036f870b872eef0.free.beeceptor.com
+contact:
+  callbackTimeFrom: 8
+  callbackTimeTo: 12
+
+application:
+  name: quin
